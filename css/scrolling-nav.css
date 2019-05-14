@@ -1,0 +1,111 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 100px 0 10px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #7289af;
+  overflow-x: hidden;
+  width: 100%;
+
+}
+
+#myVideo {
+
+  min-width: 100%; 
+  min-height: 100%;
+  height: 100%;
+  width:100%;
+
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+
+/* .intro{
+background-image: url("https://s3.amazonaws.com/platinumvibe/video/HypeReel.gif"); 
+ background-attachment: fixed;
+background-size: 100% 100%;
+width: 100%;
+max-width: 100%;
+min-width: 100%; 
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 100%;
+max-width: 100%;
+min-width: 100%;
+position: relative;
+overflow: hidden; 
+
+} */
+.intro {
+  margin:0 auto;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+.carousel-item img {
+  height: 480px !important;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100% !important;
+}
+
+#photosmobile{
+  display: none;
+}
+#photosweb{
+  display: inherit;
+}
+
+.centeredimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centereddiv{
+  margin: auto;
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .intro{ background-color: 
+    #343a40;
+  background-image: none !important;}
+  #photosweb {
+display: none;
+  }
+  #photosmobile{
+    display: inherit;
+  }
+  p{
+    /* font-size: 10px; */
+    resize: both;
+    overflow: auto;
+    padding-right: 150px;
+  }
+  } 
+
+  
